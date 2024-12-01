@@ -1,0 +1,346 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #161616;
+  padding: 35px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.header__link {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+}
+
+@media only screen and (max-width: 390px) {
+  .header__item {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .white__dark-2 {
+    display: none;
+  }
+  .white__dark {
+    display: none;
+  }
+  .header__btn {
+    display: none;
+  }
+}
+.white__dark {
+  width: 60px;
+  height: 45px;
+  top: 54px;
+  left: 1089px;
+  gap: 0px;
+  border-radius: 40px;
+  align-items: center;
+  margin-top: -8px;
+  text-align: center;
+  padding-top: 8px;
+  opacity: 0px;
+  background: #C75E90;
+  margin-left: px;
+}
+
+.white__dark-2 {
+  width: 109px;
+  height: 45px;
+  top: 54px;
+  left: 1090px;
+  gap: 0px;
+  border-radius: 220px;
+  opacity: 0px;
+  background: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  margin-left: -90px;
+  padding-top: 8px;
+}
+
+.header__btn {
+  width: 165px;
+  height: 45px;
+  top: 54px;
+  left: 1211px;
+  gap: 0px;
+  border-radius: 220px;
+  opacity: 0px;
+  background: #C75E90;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  border: 2px solid #C75E90;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  margin-left: -70px;
+}
+
+.section {
+  max-width: 100%;
+  height: px;
+  background-color: #161616;
+  margin-top: -35px;
+}
+
+.section__plans {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #696969;
+  margin-top: 35px;
+}
+
+.section__title {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.section__text {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+
+.section__menu {
+  width: 339px;
+  height: 500px;
+  padding: 46px 30px 46px 30px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background: #FFFFFF;
+  box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.2509803922);
+  list-style: none;
+}
+
+.section__btn {
+  width: 165px;
+  height: 45px;
+  top: 54px;
+  left: 1211px;
+  gap: 0px;
+  border-radius: 220px;
+  opacity: 0px;
+  background: #C75E90;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  border: 2px solid #C75E90;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+.section__box-1 {
+  padding-top: 120px;
+}
+
+.section__box-2 {
+  background-image: url("../../assets/Mask group.png");
+  width: 565.14px;
+  height: 557px;
+  top: 228px;
+  left: 811px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 80px;
+  background-size: cover;
+}
+
+.section__wrapper {
+  display: flex;
+  gap: 150px;
+}
+
+@media only screen and (max-width: 390px) {
+  .section__wrapper {
+    flex-direction: column;
+  }
+  .section {
+    height: 2000px;
+  }
+  .section__box-2 {
+    width: 371.21px;
+    height: 365.87px;
+    top: 848.73px;
+    left: 34.62px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: -10px;
+  }
+  .footer {
+    width: 370px;
+    height: 400px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-left: -230px;
+  }
+  .footer__mini {
+    margin-left: -200px;
+  }
+}
+.section__img {
+  background-image: url("../../assets/Mask group (1).png");
+  width: 337px;
+  height: 122px;
+  top: 700px;
+  left: 64px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 60px;
+  margin-top: 20px;
+}
+
+.footer {
+  max-width: 1313px;
+  height: 168px;
+  top: 908px;
+  left: 63px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 40px;
+  margin-top: 100px;
+  background: #C75E90;
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.location {
+  width: 78px;
+  height: 78px;
+  top: 951px;
+  left: 86px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  background: #8E345F;
+  padding-top: 18px;
+  margin: 30px;
+  margin-top: 40px;
+}
+
+.footer__mini {
+  width: 822px;
+  height: 168px;
+  top: 908px;
+  left: 554px;
+  gap: 0px;
+  border-radius: 100px 40px 40px 100px;
+  opacity: 0px;
+  background: #8E345F;
+  margin-left: 130px;
+  margin-top: -10px;
+  color: white;
+  display: flex;
+  padding-left: 80px;
+  align-items: center;
+}
+
+.tell {
+  width: 78px;
+  height: 78px;
+  top: 951px;
+  left: 86px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  background: #C75E90;
+  padding-top: 18px;
+  margin: 30px;
+  margin-top: 40px;
+}
+
+.massage {
+  width: 78px;
+  height: 78px;
+  top: 951px;
+  left: 86px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  padding-top: 18px;
+  margin: 30px;
+  margin-top: 40px;
+}
+
+.audio-img {
+  width: 43px;
+  height: 43px;
+  top: 739px;
+  left: 380px;
+  padding: 10.75px 10.75px 10.75px 14.33px;
+  gap: 0px;
+  opacity: 0px;
+  background: #C75E90;
+  border-radius: 50px;
+  margin-left: 258px;
+  margin-top: -55px;
+}/*# sourceMappingURL=style.css.map */
